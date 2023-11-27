@@ -7,7 +7,7 @@ import altair as alt
 import json
 
 # Load the JSON configuration from file
-file_path = 'D:/DeCODE/kepler.gl.json'
+file_path = 'kepler.gl.json'
 with open(file_path, 'r') as file:
     config_data = json.load(file)
     
