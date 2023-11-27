@@ -52,7 +52,7 @@ def main():
     
     st.sidebar.title("Select the Economy Indicator")
     
-    folder_path = "/DeCODE/Data" # Replace this with your folder path
+    folder_path = "/Data/" # Replace this with your folder path
     files = [f for f in os.listdir(folder_path) if f.endswith('.csv')]
 
     selected_files = [st.sidebar.checkbox(file[:-4], value=False, key=file[:-4]) for file in files]
