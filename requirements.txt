@@ -1,0 +1,6 @@
+streamlit==1.28.2
+streamlit-keplergl==0.3.0
+keplergl==0.3.2
+pandas ==2.0.3
+altair==5.0.1
+json==3.9.1
